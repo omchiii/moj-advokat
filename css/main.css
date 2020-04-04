@@ -617,7 +617,7 @@ td, th {
 
 .section-gap-top {
   padding-top: 50px;
-  padding-bottom:20px; }
+  }
   @media (max-width: 991px) {
     .section-gap-top {
       padding-top: 70px; } }
@@ -2002,7 +2002,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .feature-area {
   position: relative; 
-  border-bottom: 3px solid #20285f;
 
 }
   
@@ -3179,7 +3178,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background: #222222; }
+  background: #fff; }
   @media (max-width: 991px) {
     .footer-area .single-footer-widget {
       margin-bottom: 30px; } }
@@ -3278,4 +3277,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     60%{    color: transparent; }
     99%{    color:transparent;  }
     100%{   color: white;    }
+}
+
+/*# sourceMappingURL=main.css.map */
+.blinking2{
+  animation:blinkingText2 1.2s infinite;
+}
+@keyframes blinkingText2{
+  0%{     color: #20285f;    }
+  49%{    color: #20285f; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #20285f;    }
 }

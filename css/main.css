@@ -3437,5 +3437,16 @@ body.mobile-nav-active #mobile-nav-toggle {
       margin-left: 30px;
      }
     }
+
+    #loginmenu {
+      border: white 1px solid; 
     
-  
+    }
+    @media screen and (min-width: 960px){
+      #loginmenu {
+        border: white 1px solid; 
+        margin-left: 10px;
+      
+      }
+     }
+

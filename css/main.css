@@ -3383,7 +3383,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       
       #sectionlogo {
         width: 300px;
-        height: auto;
+        height: 86.6px;
       }
     }
 
@@ -3421,4 +3421,14 @@ body.mobile-nav-active #mobile-nav-toggle {
       }
     }
     
+    #lexsoft {
+      margin-top: 50px; 
+
+    }
+    @media screen and (min-width: 992px){
+      
+     #lexsoft{ 
+      margin-left: 30px;
+     }
+    }
     

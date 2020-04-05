@@ -3383,6 +3383,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       
       #sectionlogo {
         width: 300px;
+        height: auto;
       }
     }
 

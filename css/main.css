@@ -2067,7 +2067,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .single-fact p {
     color: white;
     margin: 0;
-    font-size: 10px; }
+    font-size: 14px; }
     @media (max-width: 767px) {
       .single-fact {
         border-right: 0px solid white;
@@ -3361,7 +3361,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     @media screen and (max-width: 591px){
       
       #registracija {
-        width: 20em;
+        width: 25em;
       }
     }
 

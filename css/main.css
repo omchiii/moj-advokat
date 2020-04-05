@@ -3394,17 +3394,23 @@ body.mobile-nav-active #mobile-nav-toggle {
       }
     }
     
+    #hero{
+      width: 200px;
+      height: 200px;
+      background-image: url('/img/hero.png');
+      background-size: cover;
+    }
 
     @media screen and (max-width: 991px){
       
       #hero {
-        padding-top: 50px;
+        margin-top: 50px;
       }
     }
     @media screen and (min-width: 992px){
       
       #hero {
-        padding-top: 250px;
+        margin-top: 250px;
       }
     }
 
@@ -3432,3 +3438,4 @@ body.mobile-nav-active #mobile-nav-toggle {
      }
     }
     
+  

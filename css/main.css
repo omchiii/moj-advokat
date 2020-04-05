@@ -3397,7 +3397,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     #hero{
       width: 200px;
       height: 200px;
-      background-image: url('/img/hero.png');
+      background-image: url('../img/hero.png');
       background-size: cover;
     }
 

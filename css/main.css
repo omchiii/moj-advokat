@@ -3188,7 +3188,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background: #fff; }
+  background: #fff; 
+border-top: 2px solid #20285f;}
   @media (max-width: 991px) {
     .footer-area .single-footer-widget {
       margin-bottom: 30px; } }
@@ -3466,8 +3467,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 .home-banner-area2 {
-  background: url(../img/lawyerbanner.png) center;
-  background-size: cover; }
+  background-color: #20285f; }
   .home-banner-area2 .banner-img {
     text-align: right; }
     @media (max-width: 1440px) {
@@ -3499,3 +3499,8 @@ body.mobile-nav-active #mobile-nav-toggle {
           .footer-area2 {
             background: rgba(179,77,83,0.9); }
 
+b {
+  color: #20285f;
+}
+h1 {  color: #20285f;
+}

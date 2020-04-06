@@ -3361,7 +3361,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     @media screen and (max-width: 591px){
       
       #registracija {
-        width: 25em;
+        width: 20em;
       }
     }
 
@@ -3449,4 +3449,53 @@ body.mobile-nav-active #mobile-nav-toggle {
       
       }
      }
+
+     @media screen and (max-width: 1199px){
+      
+      #banner-height2 {
+        height: 30em;
+      }
+    }
+
+    @media screen and (min-width: 1200px){
+      
+      #banner-height2 {
+        height: 600px;
+      }
+    }
+
+
+.home-banner-area2 {
+  background: url(../img/lawyerbanner.png) center;
+  background-size: cover; }
+  .home-banner-area2 .banner-img {
+    text-align: right; }
+    @media (max-width: 1440px) {
+      .home-banner-area2 .banner-img {
+        text-align: left; }
+        .home-banner-area2 .banner-img img {
+          width: 60%; } }
+    @media (max-width: 991px) {
+      .home-banner-area2 .banner-img {
+        text-align: center; } }
+    @media (max-width: 767px) {
+      .home-banner-area2 .banner-img {
+        display: none; } }
+  @media (max-width: 991px) {
+    .home-banner-area2 .fullscreen {
+      height: 700px !important; } }
+ 
+
+      
+
+          @media screen and (min-width: 992px) {
+      
+            #paper{
+              margin-top:200px;
+               } 
+      
+          }
+
+          .footer-area2 {
+            background: rgba(179,77,83,0.9); }
 

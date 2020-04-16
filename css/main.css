@@ -3504,3 +3504,16 @@ b {
 }
 h1 {  color: #20285f;
 }
+
+
+@media screen and (max-width: 1200px) {
+  
+  .col-10 {
+    font-size: 0.5em;
+  }
+
+  #herobutton {
+    margin-left: 50px;
+  }
+
+}
